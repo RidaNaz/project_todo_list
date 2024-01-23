@@ -5,15 +5,18 @@
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
   },
-  "name": "project_todo_list",
+  "name": "project-todo-list_rida",
   "version": "1.0.0",
   "main": "main.js",
-  "type" : "module",
+  "type": "module",
+  "bin": {
+    "project_todo_list": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rida Naz",
   "license": "ISC",
-  "description": ""
+  "description": "This is a todo list in which you can add, update, view and delete items."
 }

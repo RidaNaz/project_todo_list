@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 let todos = ["Rida", "Naz"];
 async function createTodo(todos) {
